@@ -2,7 +2,8 @@
 import css from "@/app/(auth routes)/sign-up/SignUpPage.module.css"
 import { registration } from "@/lib/api/clientApi";
 import { useAuthStore } from "@/lib/store/authStore";
-import { ApiError, UserRequest } from "@/types/user";
+import { UserRequest } from "@/types/user";
+import { ApiError} from "@/types/response";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 

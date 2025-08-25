@@ -1,4 +1,5 @@
-import { UserMe, UserRequest, CheckSession } from '@/types/user';
+import { UserMe, UserRequest } from '@/types/user';
+import { CheckSession } from '@/types/response';
 import { nextServer } from './api';
 import type { FetchNotesResponse, NewNoteData, Note, Params } from '../../types/note';
 
